@@ -68,47 +68,12 @@ footer{
     font-size: 4rem;
     
     }
-  .jumbotron .p{
+  .the-inner .p{
   width: 100%;
   position: relative;
   margin: 15px;
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
-  }
-  .jumbotron {
-  background-color: #f4a468 !important;
-  height: 30vh;
-  font-family: "Roboto", sans-serif;
-  padding: 70px 0px;
-  }
-  .jumbotron .p {
-  font-size: 2.2rem !important; 
-  }
-  .jumbotron .h1 {
-    font-style: bold italic;
-    font-family: "Lora", serif;
-    font-size: 3.5rem !important; 
-  }
-  .width-auto {
-    width: auto;
-}
-
-.text-lg {
-    font-size: 2rem;
-}
-
-.gap100 {
-  padding: 70px 0px;
-  }
-  .gap100 .col-md-6 .display-3 {
-  font-size: 3.1rem;
-  font-weight: 300;
-  line-height: 1.2;
-  font-style: bold;
-  font-family: "Lora", serif;
-  }
-  .row .gap100 .lead {
-  font-size: 1.875rem;
   }
   .social-menu ul {
     position: center;
