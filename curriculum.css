@@ -86,6 +86,19 @@ footer{
   .width-auto {
     width: auto;
 }
+.gap100 {
+    padding: 70px 0px;
+    }
+    .gap100 .col-md-6 .display-3 {
+    font-size: 3.1rem;
+    font-weight: 300;
+    line-height: 1.2;
+    font-style: bold;
+    font-family: "Lora", serif;
+    }
+    .row .gap100 .lead {
+    font-size: 1.875rem;
+    }
   .social-menu ul {
     position: center;
     padding: 0;
