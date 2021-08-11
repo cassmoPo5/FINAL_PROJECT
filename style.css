@@ -75,6 +75,10 @@ footer{
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
   }
+  a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
   .social-menu ul {
     position: center;
     padding: 0;
