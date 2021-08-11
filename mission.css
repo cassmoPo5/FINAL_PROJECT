@@ -65,23 +65,20 @@ footer{
     font-style: bold italic;
     font-weight: 400;
     line-height: 1.4;
-    font-size: 2.6rem;
+    font-size: 3rem;
     
     }
     .the-inner p {
     color: #606061;
     text-align: center;
-    font-size: 1.5rem;  
+    font-size: 2rem;  
     }
     .jumbotron {
     background-color: #f4a468 !important;
-    height: 30vh;
     font-family: "Lora", serif;
     font-style: italic;
     padding: 70px 0px;
-    }
-    .jumbotron .lead {
-    font-size: 1.5rem !important; 
+    font-size: 2rem !important;
     }
     .gap100 {
     padding: 70px 0px;
