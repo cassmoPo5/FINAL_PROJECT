@@ -95,11 +95,12 @@ footer{
     line-height: 1.2;
     font-style: bold;
     font-family: "Lora", serif;
+    color: white;
     }
     .list {
     list-style: none;
     padding: 0;
-    border: 1px solid rgb(205, 205, 205);
+    color: 1px solid white;
     }
     
     .list li {
@@ -118,7 +119,7 @@ footer{
     position: absolute;
     right:0;
     top: -8px;
-    color:#c2c2c2;
+    color:white;
     }
     
     .list .the-active .heading::before {
@@ -160,6 +161,12 @@ footer{
         line-height: 1.5;
         margin-top: 25px;
     }
+    .box {
+      background-color: #f4a468 !important;
+      padding: 100px 0px;
+      position: flex;
+      text-align: center;
+      }
   .social-menu ul {
     position: center;
     padding: 0;
