@@ -1,5 +1,164 @@
-.art {
-    background-image: url(https://images.unsplash.com/photo-1627889465872-5215bab878b8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80);
-    background-size: cover;
-    height: 300px;
+@import url(//use.typekit.net/rla0ior.css?family=Lora:300,400,500);
+footer{
+    font-family: "Lora", serif;
+	color: black;
+  font-weight: 300;
+}
+.navbar-brand {
+    position: absolute;
+  }
+  .btn-primary {
+      color: #fff;
+      background-color: #ee7318;
+      border-color: #6D0076;
+    }
+   
+  .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open .dropdown-toggle.btn-primary {
+  background-color: #ee7318;
+  color:#FFF;
+  border-color: #6D0076;
+  }
+  
+  .h2 {
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    height: 43px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 1;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .caption{
+    position:absolute;
+    top : 20%;
+  }
+  @import url(//use.typekit.net/rla0ior.css?family=Lora:300,400,500);
+.contact4 {
+  font-family: "Lora", serif;
+	color: black;
+  font-weight: 300;
+}
+
+.contact4 h1, .contact4 h2, .contact4 h3, .contact4 h4, .contact4 h5, .contact4 h6 {
+  color: #3e4555;
+}
+
+.contact4 .font-weight-medium {
+	font-weight: 500;
+}
+
+.contact4 .form-control {
+  background: transparent;
+  border: 2px solid #3e4555;
+}
+
+.contact4 .form-control:focus {
+  border-color: #3e4555;
+}
+
+.contact4 input::-webkit-input-placeholder,
+.contact4 textarea::-webkit-input-placeholder {
+  color: #3e4555;
+}
+
+.contact4 input:-ms-input-placeholder,
+.contact4 textarea:-ms-input-placeholder {
+  color: #3e4555;
+}
+
+.contact4 input::placeholder,
+.contact4 textarea::placeholder {
+  color: #3e4555;
+}
+.col-lg-6 .right-box {
+    width: 100%;
+    height: 450;
+    color: #2f4682;
+}
+
+.contact4 .right-image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.contact4.bg-info {
+    background-color: #ffffff !important;
+}
+
+.contact4 .text-inverse {
+    color: #3e4555 !important;
+}
+  .social-menu ul {
+    position: center;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  .social-menu ul li {
+    list-style: none;
+    margin: 0 10px;
+  }
+  .social-menu ul li .fa {
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;
+  }
+  .social-menu ul li .fa:hover {
+    color: #ffffff;
+  }
+  .social-menu ul li a {
+    position: center;
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #ee7318;
+    text-align: center;
+    transition: 0.5s;
+    transform: translate(0,0px);
+    box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+  }
+  .social-menu ul li a:hover {
+    transform: rotate(0deg) skew(0deg) translate(0, -10px);
+  }
+  .social-menu ul li:nth-child(1) a:hover {
+    background-color: #3B5998;
+  }
+  .social-menu ul li:nth-child(2) a:hover {
+    background-color: #1DA1F2;
+  }
+  .social-menu ul li:nth-child(3) a:hover {
+    background-color: #8a3AB9;
+  }
+  .social-menu ul li:nth-child(4) a:hover {
+    background-color: #FF0000;
+  }
+  .social-menu ul li:nth-child(5) a:hover {
+    background-color: #0077B5;
+  }
+  @media (min-width: 1024px) {
+	.contact4 .contact-box {
+    padding: 80px 105px 80px 0px;
+	}
+}
+
+@media (max-width: 767px) {
+	.contact4 .contact-box {
+    padding-left: 15px;
+    padding-right: 15px;
+	}
+}
+
+@media (max-width: 1023px) {
+	.contact4 .right-image {
+			position: relative;
+			bottom: -95px;
+	}
 }

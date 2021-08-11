@@ -1,51 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <title>Mission</title>
+  <title>Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
   <head>
-    <link rel="stylesheet" href="contact.css" type="text/css">
-    <link rel="stylesheet" href="https://use.typekit.net/cdo5fzy.css">
-    <link rel="stylesheet" href="https://use.typekit.net/rtx8nwv.css">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://use.typekit.net/rla0ior.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
-    <script src="mission.js"></script>
+    <script src="index.js"></script>
   </head>
-
   <body>
+  <!-- Navigation Bar 1-->
     <header>
       <div id="page-container">
         <div id="content-wrap">
-          <nav class="navbar navbar-light bg-light">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-        <img src="/images/Final_Logo.jpg" width="30" height="30" alt="logo">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="d-flex flex-grow-1">
+              <span class="w-100 d-lg-none d-block"></span>
+            <div class="container-fluid">
+          <a class="navbar-brand img-responsive" href="index.html">
+        <img src="images/Final_Logo.jpg" width="60" height="60" alt="logo">
       </a>
-    <form class="d-flex">
-      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success" type="submit">Search</button>
-    </form>
+      <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar">
+    <div class="navbar-nav ml-auto flex-nowrap">
+<!--Donate-->
+      <a href="#" class="btn btn-primary btn-primary mx-right">Donate</a>
+<!-- Sign In -->
+      <a href="#" class="btn btn-primary btn-primary mx-right">Sign In</a>
+<!-- Search form -->
+<div class="p-1 bg-light rounded rounded-pill shadow-sm mb-4">
+  <div class="input-group">
+    <input type="search" placeholder="Search here" aria-describedby="button-addon1" class="form-control border-0 bg-light">
+    <div class="input-group-append">
+      <button id="button-addon1" type="submit" class="btn btn-link text-primary"><i class="fa fa-search"></i></button>
+    </div>
   </div>
-</nav>
-          <div class="container-fluid bg-danger art" >
-<nav class="navbar navbar-expand-lg navbar-dark bg-transparent ">
+</div>
+</div>
+  </div>
+    </div>
+  </nav>
+<!--Nagivation 2-->
+  <div style="background-color: #a0c528;">
+  <div class="container-fluid" >
+<nav class="navbar navbar-expand-lg navbar-dark bg-transparent text-center mx-auto">
     <div class="container">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
       aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="basicExampleNav">
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav justify-content-between w-100">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home
-            <span class="sr-only">(current)</span>
+          <a class="nav-link" href="index.html">Home
+            <span class="sr-only"></span>
           </a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">About Us</a>
           <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-            <a class="dropdown-item" href="#">Our Mission</a>
+            <a class="dropdown-item" href="mission.html">Our Mission</a>
             <a class="dropdown-item" href="#">Our History</a>
             <a class="dropdown-item" href="#">Our Team</a>
             <a class="dropdown-item" href="#">Testimonials</a>
@@ -55,7 +71,7 @@
             <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">Our Programs</a>
             <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item" href="#">Our Curriculum</a>
+              <a class="dropdown-item" href="curriculum.html">Our Curriculum</a>
               <a class="dropdown-item" href="#">Program Implementation</a>
               <a class="dropdown-item" href="#">Programs in San Diego,CA USA</a>
             </div>
@@ -78,104 +94,208 @@
               <a class="dropdown-item" href="#">Our Videos</a>
             </div>
           </li>
-          <a class="nav-link" href="#">Contact Us
-            <span class="sr-only"></span>
+          <a class="nav-link" href="contact.html">Contact Us
+            <span class="sr-only">(current)</span>
           </a>
       </ul>
-     
     </div>
     </div>
   </nav>
   </div>
   </div>
   </div>
-          </header>
-<footer class="page-footer font-small unique-color-dark">
-
-    <div style="background-color: #2f4682;">
+    </header>
+    <section id="thehero">
+      <div class="the-inner">
+        <div class="container">
+          <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+      <h1>Build a foundation <br />
+        that will last a lifetime</h1>
+      </div>
+      </div>
+          <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <a href="curriculum.html" class="btn btn-primary btn-primary text-center">Learn More</a>
+      </div>
+      </div>
+      </div>
+      </div>
+      </section>
+      <div class="content virtue">
+      <div class="row">
+      <div class="justify-content-center align-items-center h-25">
+        <h1>At the core of our curriculum, students will learn the following key virtues <br />
+          and discover the treasures of discipline. </h1>
+    </div>
+  </div>
+    </div>
+      <div class="jumbotron jumbotron-fluid text-black text-center">
+        <div class="container">
+          <p class="lead">Our responsibility is to <br />
+            <h1>mentor + educate</h1>
+             the next generation of parents and leaders</p>
+        </div>
+      </div>
+        <div class="row">
+          <div class="col-lg-4 col-md-12 mb-4">
+              <div class="card">
+                  <div class="view overlay hm-white-slight img-center">
+                      <img src="images/diamond.png" class="img-fluid" alt="diamond">
+                      <a href="#!">
+                          <div class="mask"></div>
+                      </a>
+                  </div>
+                  <div class="card-body text-center">
+                      <h4 class="card-title">Curriculum</h4>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <a href="curriculum.html" class="btn btn-primary btn-md">Learn More</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card">
+                  <div class="view overlay hm-white-slight img-center">
+                      <img src="images/money.png" class="img-fluid" alt="photo">
+                      <a href="#!">
+                          <div class="mask"></div>
+                      </a>
+                  </div>
+                  <div class="card-body text-center">
+                      <h4 class="card-title indigo-text"><strong>Our Mission</strong></h4>
+                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <a href="mission.html" class="btn btn-primary btn-md">Discover</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-4">
+              <div class="card">
+                  <div class="view overlay hm-white-slight img-center">
+                      <img src="images/change.png" class="img-fluid" alt="photo">
+                      <a href="#!">
+                          <div class="mask"></div>
+                      </a>
+                  </div>
+                  <div class="card-body text-center">
+                      <h4 class="card-title font-up brown-text">Contact Us</h4>
+                      <p class="card-text black-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      <a href="contact.html" class="btn btn-primary btn-md">Contact</a>
+                  </div>
+              </div>
+          </div>
+      </div>
       <div class="container">
-        <div class="row py-4 d-flex align-items-center">
-          <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-            <h6 class="mb-0">Connect with us!</h6>
-          </div>
-          <div class="col-md-6 col-lg-7 text-center text-md-right">
-            <a class="fb-ic">
-              <i class="fab fa-facebook-f white-text mr-4"> </i>
-            </a>
-            <a class="tw-ic">
-              <i class="fab fa-twitter white-text mr-4"> </i>
-            </a>
-            <a class="gplus-ic">
-              <i class="fab fa-google-plus-g white-text mr-4"> </i>
-            </a>
-            <a class="li-ic">
-              <i class="fab fa-linkedin-in white-text mr-4"> </i>
-            </a>
+        <div class="row gap100">
+              <div class="col-md-6">
+                <img src="images/smile.jpg" class="img-fluid rounded-circle" alt="smile">
+                <div class="col-md-6">
+                  <div class="display-3">
+                  <p class="lead">My two boys, Lucas and Graham, truly enjoyed the program, and enthusiastically told me about what they learned each day. For my part, and the part of their father, we are excited that a program such as this exists, and that such important information can be imparted to our kids in such a way as to interest and amuse them. Even Lucas, who previously had a “money grows on trees” kind of mindset, was intrigued and awakened to the realities of money.”</p>
+                  <p2 class="end">Carla,Parent,San Diego,CA</p2>
+                </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="container text-center text-md-left mt-5">
-      <div class="row mt-3">
-        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-          <h6 class="text-uppercase font-weight-bold">Mind Treasures 501(c)(3)</h6>
-          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-          <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-            consectetur
-            adipisicing elit.</p>
-        </div>
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-          <h6 class="text-uppercase font-weight-bold">Navigation</h6>
-          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-          <p>
-            <a href="#!">WHO WE ARE</a>
-          </p>
-          <p>
-            <a href="#!">WHAT WE DO</a>
-          </p>
-          <p>
-            <a href="#!">GET INVOLVED</a>
-          </p>
-          <p>
-            <a href="#!">CONTACT US</a>
-          </p>
-        </div>
-        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-          <h6 class="text-uppercase font-weight-bold">USEFUL LINKS</h6>
-          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-          <p>
-            <a href="#!">Your Account</a>
-          </p>
-          <p>
-            <a href="#!">Become an Affiliate</a>
-          </p>
-          <p>
-            <a href="#!">Shipping Rates</a>
-          </p>
-          <p>
-            <a href="#!">Help</a>
-          </p>
-        </div>
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-          <h6 class="text-uppercase font-weight-bold">Contact</h6>
-          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-          <p>
-            <i class="fas fa-home mr-3"></i>  7310 Miramar Road, Suite 500, San Diego, CA 92126</p>
-          <p>
-            <i class="fas fa-envelope mr-3"></i> info@example.com</p>
-          <p>
-            <i class="fas fa-phone mr-3"></i> +1 (858)215-4781</p>
-  
+  <footer class="page-footer font-small unique-color-dark text-light">
+  <div style="background-color: #75007F;">
+    <div class="container">
+      <div class="row py-4 d-flex align-items-center ">
+        <div class="col-md-6 col-lg-7 text-center text-md-center">
+            <div class= "social-menu">
+              <ul>
+                <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                <li><a href=""><i class="fa fa-youtube"></i></a></li>
+                <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+            </div>
         </div>
       </div>
     </div>
-    <div class="footer-copyright text-center py-3">© Mind Treasures is a California 501(c)(3) Non-Profit Organization
-        <h6 class="footer-tax text-center py-3"> EIN: 20-8969869</h6>
+  <div class="container text-center text-md-left mt-5">
+    <div class="row mt-3">
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+        <h6 class="text-uppercase font-weight-bold">ABOUT US</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="mission.html">Our Mission</a>
+        </p>
+        <p>
+          <a href="#!">Our History</a>
+        </p>
+        <p>
+          <a href="#!">Our Team</a>
+        </p>
+        <p>
+          <a href="#!">Testimonials</a>
+        </p>
+      </div>
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+        <h6 class="text-uppercase font-weight-bold">OUR PROGRAMS</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="curriculum.html">Our Curriculum</a>
+        </p>
+        <p>
+          <a href="#!">Program Implementation</a>
+        </p>
+        <p>
+          <a href="#!">Programs in San Diego, CA USA</a>
+        </p>
+      </div>
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+        <h6 class="text-uppercase font-weight-bold">GET INVOLVED</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="#!">Become An Affiliate</a>
+        </p>
+        <p>
+          <a href="#!">Donation & Sponsorship</a>
+        </p>
+        <p>
+          <a href="#!">Volunteer</a>
+        </p>
+      </div>
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+        <h6 class="text-uppercase font-weight-bold">RESOURCES</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <a href="#!">Class Resources</a>
+        </p>
+        <p>
+          <a href="#!">Facilitator Training</a>
+        </p>
+        <p>
+          <a href="#!">Our Videos</a>
+        </p>
+      </div>
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+        <h6 class="text-uppercase font-weight-bold">CONNECT</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>
+          <i class="address"></i>  7310 Miramar Road, Suite 500, San Diego, CA 92126</p>
+        <p>
+          <i class="number"></i> Tel: +1 (858)215-4781</p>
+
+      </div>
     </div>
-  </footer>
-</div> 
+  </div>
+<div>
+  <img class="img-responsive center-block d-block mx-auto" src="images/Final_Logo.jpg" width="50" height="50" alt="logo">
+  <div class="footer-copyright text-center">© Mind Treasures is a California 501(c)(3) Non-Profit Organization
+      <h6 class="footer-tax text-center py-3"> EIN: 20-8969869</h6>
+  </div>
+  </div>
+</div>
+</footer>
+</div>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>   
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</div>
 </body>
 </html>
