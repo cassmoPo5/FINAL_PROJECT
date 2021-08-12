@@ -37,6 +37,29 @@ footer{
     position:absolute;
     top : 20%;
   }
+  .gap100 {
+    padding: 70px 0px;
+    }
+    .gap100 .col-md-6 .display-3 {
+    font-size: 3.1rem;
+    font-weight: 300;
+    line-height: 1.2;
+    font-style: bold;
+    font-family: "Lora", serif;
+    }
+    .row .gap100 .lead {
+    font-size: 1.875rem;
+    }
+    .box .col-md-6 h1{
+    font-family: "Lora", serif;
+    font-style: bold italic;
+    }
+    .jumbotron {
+      background-color: #f4a468 !important;
+      font-family: "Lora", serif;
+      padding: 70px 0px;
+      font-size: 2rem !important;
+      }
   @import url(//use.typekit.net/rla0ior.css?family=Lora:300,400,500);
 
   #thehero {
@@ -78,6 +101,70 @@ footer{
   a, a:hover, a:focus, a:active {
     text-decoration: none;
     color: inherit;
+}
+.testimonial{
+  padding-left: 150px;
+  margin: 50px 0;
+}
+.testimonial:before,
+.testimonial:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.testimonial .pic{
+  display: block;
+  width: 23%;
+  float: left;
+  margin-right: 5%;
+}
+.testimonial .pic img{
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+.testimonial .testimonial-content{
+  display: inline-block;
+  width: 72%;
+  padding-top: 25px;
+}
+.testimonial-content .title{
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 900;
+  color: black;
+  padding-right: 10px;
+  margin: 0;
+}
+.testimonial .post{
+  display: inline-block;
+  font-size: 18px;
+  color: black;
+}
+.testimonial .description{
+  font-size: 18px;
+  font-style: italic;
+  color: black;
+  margin-top: 25px;
+}
+@media only screen and (max-width:1280px){
+  .testimonial{ padding-left: 80px; }
+}
+@media only screen and (max-width:767px){
+  .testimonial{
+      text-align: center;
+      padding-left: 0;
+      margin: 0 15px;
+  }
+  .testimonial .pic{
+      width: 100px;
+      height: 100px;
+      float: none;
+      margin-right: 0;
+  }
+  .testimonial .testimonial-content{
+      width: 100%;
+  }
 }
   .social-menu ul {
     position: center;
